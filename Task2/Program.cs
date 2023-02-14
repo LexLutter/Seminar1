@@ -8,10 +8,10 @@ Console.Write("Введите третье число: ");
 int thirdValue = Convert.ToInt32(Console.ReadLine());
 if (firstValue > secondValue)
     if (firstValue > thirdValue) 
-        Console.WriteLine("число " + firstValue + " является самим большим ");
-    else Console.WriteLine("число " + thirdValue + " является самим большим ");
+        Console.WriteLine("число " + firstValue + " является самым большим ");
+    else Console.WriteLine("число " + thirdValue + " является самым большим ");
 else
     if (secondValue > thirdValue)
-        Console.WriteLine("число " + secondValue + " является самим большим ");
-    else Console.WriteLine("число " + thirdValue + " является самим большим ");
+        Console.WriteLine("число " + secondValue + " является самым большим ");
+    else Console.WriteLine("число " + thirdValue + " является самым большим ");
 
