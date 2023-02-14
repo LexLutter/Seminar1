@@ -6,4 +6,4 @@ Console.Write("Введите второе число: ");
 int secondValue = Convert.ToInt32(Console.ReadLine());
 if (firstValue > secondValue)
      Console.WriteLine("число " + firstValue + " больше числа " + secondValue);
-else Console.WriteLine("число " + secondValue + " больше числа " + firstValue);checked/
+else Console.WriteLine("число " + secondValue + " больше числа " + firstValue);
